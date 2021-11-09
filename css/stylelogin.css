@@ -1,0 +1,80 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Inter", "sans-serif";
+}
+body {
+    background-color: #b893f5;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+#bg-login {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+
+}
+.box-login{
+    position: relative;
+    background-color: #b893f5;
+    align-content: center;
+}
+
+.box-login h2 {
+    text-align: center;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border: none;
+    color: #000000;
+}
+.input-control {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color: #E5E5E5;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 0px;
+}
+.btn {
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(89, 39, 112);
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.logoadmin {
+    position: relative;
+    width: 70px;
+    left: -100px;
+}
+header {
+    background-color: rgb(89, 39, 112);
+    height: 80px;
+    display: flex;
+    padding: 0 10%;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 2px 4px 0 rgba(1, 1, 1, 0.1);;
+}
+header h1 {
+    float: left;
+    padding: 10px 0;
+    font-family: "Inter", "sans-serif";
+}
+header ul {
+    float: right;
+}
+header ul li {
+    display: inline-block;
+}
+header ul li a {
+    color: white;
+    padding: 20px 0 20px 15px;
+    display: inline-block;
+}
